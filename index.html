@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html langue="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8"><!--decode que a página tem que usar-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"><!--Importar o css da pasta do bootstrap-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin"><!--criando uma barra de na navegação que vai ser 
+            grande"lg" e clara "light"-->
+           <a class="navbar-brand" href="#">
+              <img src="img/global_labs.jpeg" width="220">
+        </a>
+        <div class="collapse navbar-collapse"><!--a "div" cria uma divisão e aplica estilos que estão contidos na "class"
+             que esta dentro desta divisão-->
+            <ul class="navbar-nav"><!--Criei uma lista e com a biblioteca do bootstrap de navbar deixou tudo na horizontal
+                 e com efeitinhos-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#serviços">Serviços</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin"><!--o container ja cria o texto com uma margin
+                pra esquerda, mas se for usar para fundo branco se for fazer um site com cor não fica legal, já o
+                "container-fluid" pega a pagina inteira sem a margin-->
+                <h3 class="margin">Quem somos</h3>
+                <img src="img/time.jpeg" class="rounded-circle" width="300" height="300"><!--usei a class "rounded-cicle"
+                para deixar a img redonda-->
+                <h3>Somos uma empresa de tecnologia</h3>
+            </div>
+        </section>
+        <section id="parceiros">
+            <div class="container-fluid parceiros text-center margin parceiros">
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row"><!--para criar colunas com o "container"-->
+                        <div class="col-lg-4"><!--usei o "md" para deixa medio mas pode usar "lg" para grande-->
+                            <img src="img/digital_inovation.png">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/digital_inovation.png">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/digital_inovation.png">
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="serviços">
+            <div class="container-fluid text-center margin serviços">
+                <h3 class="margin">Serviços</h3>
+                <div clas="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Sempre fornecer o melhor serviço para nossos clientes</p>
+                            <img src="img/app.jpg" width="75%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Sempre fornecer o melhor serviço para nossos clientes</p>
+                        <img src="img/site1.jpg" width="75%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Sempre fornecer o melhor serviço para nossos clientes</p>
+                        <img src="img/programing.jpg" width="75%">
+                    </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Will</p>
+        </footer>
+
+    </body>
+</html>

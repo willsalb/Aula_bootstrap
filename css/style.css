@@ -1,0 +1,31 @@
+
+body{ /* mudei a fonte de todo o "body"*/
+    font: 20px Arial, sans-serif;
+}
+.navbar{
+    background-color: #5D6D7E;
+}
+
+.quem-somos{
+    background-color: #99A3A4;
+    color: white;
+}
+
+.margin{ /* criei uma margin "padding" no selection do "p"*/
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.parceiros{
+    background-color: #AAB7B8;
+    color: white;
+}
+
+.serviços{
+    background-color: #CACFD2;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
+}
